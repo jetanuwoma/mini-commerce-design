@@ -1,0 +1,17 @@
+module.exports = {
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  darkMode: false, // or 'media' or 'class'
+  theme: {
+    extend: {},
+    minHeight: {
+      'h-sec': '330px',
+    },
+    fontFamily: {
+      'lora': '"Lora", serif'
+    }
+  },
+  variants: {
+    extend: {},
+  },
+  plugins: [],
+}

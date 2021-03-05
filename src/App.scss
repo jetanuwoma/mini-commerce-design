@@ -1,0 +1,28 @@
+.btn-pry {
+  background-color: #4b5548;
+  color: #fcfcf9;
+}
+
+.btn-pry {
+  cursor: pointer;
+  padding: 14px 11px;
+  border: 0.5px solid #4b5548;
+  background-color: #4b5548;
+  color: #fcfcf9;
+  width: calc(50% - 5px);
+  font-size: 14px;
+  font-family: "Lora", san-serif;
+  text-align: center;
+}
+
+.btn-pry:hover {
+  background-color: #2B2E2B;
+}
+
+.overlay {
+  background: rgb(205, 209, 206);
+  opacity: 0.8;
+  backdrop-filter: blur(3px);
+  z-index: 1399;
+  transition: all 0.4s ease-in-out;
+}
