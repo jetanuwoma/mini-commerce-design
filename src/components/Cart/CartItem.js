@@ -51,14 +51,12 @@ CartItem.propTypes = {
   handleRemoveProduct: PropTypes.func.isRequired,
   currency: PropTypes.string.isRequired,
   modifyQuantity: PropTypes.func.isRequired,
-  product: PropTypes.objectOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      image_url: PropTypes.string,
-      quantity: PropTypes.number,
-      price: PropTypes.number,
-    }),
-  ).isRequired,
+  product: PropTypes.shape({
+    title: PropTypes.string,
+    image_url: PropTypes.string,
+    quantity: PropTypes.number,
+    price: PropTypes.number,
+  }).isRequired,
 };
 
 export default CartItem;

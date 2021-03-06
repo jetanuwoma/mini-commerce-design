@@ -4,7 +4,7 @@ import PropType from 'prop-types';
 const ProductItem = ({
   addTocart, image, title, price, productId, currency,
 }) => (
-  <div className="flex flex-col py-12 px-7 justify-center items-center">
+  <div className="flex flex-col py-12 px-7 justify-center items-center product-item">
     <div className="flex h-32 item-center justify-center mb-4">
       <img className="px-1 object-contain" src={image} alt={title} />
     </div>

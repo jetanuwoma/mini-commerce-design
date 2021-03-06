@@ -8,7 +8,9 @@ import currencies from '../../utils/currencies';
 import arrow from '../../assets/arrow.svg';
 
 const Cart = ({
-  show, onClose, currency,
+  show,
+  onClose,
+  currency,
   handleCurrencyChange, handleQuantityChange, cartItems,
   total, handleRemoveProduct,
 }) => (
@@ -54,12 +56,10 @@ const Cart = ({
 );
 
 Cart.propTypes = {
-  currency: PropTypes.objectOf(
-    PropTypes.shape({
-      code: PropTypes.string,
-      symbol: PropTypes.string,
-    }),
-  ).isRequired,
+  currency: PropTypes.shape({
+    code: PropTypes.string,
+    symbol: PropTypes.string,
+  }).isRequired,
   show: PropTypes.bool.isRequired,
   total: PropTypes.number.isRequired,
   onClose: PropTypes.func.isRequired,
