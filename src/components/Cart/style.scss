@@ -1,0 +1,137 @@
+.cart-footer {
+  right: 0;
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #d0d0d0;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.15);
+  background: #F2F2EF;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p:first-child {
+    font-size: .8rem;
+    font-weight: 400;
+  }
+  
+  p:last-child {
+    font-size: .95rem;
+    font-weight: 600;
+  }
+}
+
+.cart-action-btns {
+  margin-top: 1.5rem;
+
+  button {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: .75rem;
+    font-weight: 300;
+    
+    &:first-child {
+      color: #2b2e2b;
+      letter-spacing: 0.96px;
+      border: 1px solid #2b2e2b;
+      background-color: #fff;
+    }
+  
+    &:last-child {
+      color: #fff;
+      margin-top: 15px;
+      letter-spacing: 2px;
+      background-color: #4b5548;
+    }
+  }
+}
+
+.cart-item {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: inherit;
+  max-height: inherit;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.cart-item .product-description {
+  color: #1e2d2b;
+  width: 65%;
+  line-height: 18px;
+  font-size: 10px;
+  padding: 15px 13px 13px 21px;
+  letter-spacing: 0.02px;
+}
+
+.cart-item .product-description .remove-product {
+  float: right;
+  padding-right: 5px;
+  position: absolute;
+  right: 27px;
+  margin-top: -10px;
+  margin-right: -20px;
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+  color: #000;
+}
+.cart-item .product-description .quantity {
+  font-size: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-item .product-image {
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e2d2b;
+  width: 33.3%;
+  padding-right: 15px;
+}
+
+.cart-item .product-image img {
+  overflow: hidden;
+  height: 80px;
+  width: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.cart-item .product-description .quantity-selector {
+  border: 0.5px solid #bcbcbc;
+  padding: 7px;
+  width: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-item .product-description .quantity .price {
+  float: right;
+  padding: 0 10px;
+  width: inherit;
+  font-size: 15px;
+  letter-spacing: 0.03px;
+}
+
+.cart-item .product-description .quantity .counter-action {
+  cursor: pointer;
+  color: #000;
+  font-size: 15px;
+}
+
+.cart-item .product-description .quantity .counter {
+  padding: 0 10px;
+  font-size: 13px;
+}
+

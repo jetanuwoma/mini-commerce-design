@@ -117,6 +117,6 @@ const currencies = [
   { symbol: 'YR', code: 'YER' },
   { symbol: 'R', code: 'ZAR' },
   { symbol: 'ZK', code: 'ZMK' },
-]
+];
 
 export default currencies;

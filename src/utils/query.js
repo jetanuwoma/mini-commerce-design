@@ -9,6 +9,6 @@ const Query = (currency) => gql`
     price(currency: ${currency})
   }
 }
-`
+`;
 
 export default Query;
